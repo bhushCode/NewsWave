@@ -21,22 +21,22 @@ class NewsRepository(private  val newsApi: NewsApi,private  val category:String,
         if (NetworkUtils.isInternetAvailable(applicationContext)) {
 
 
-            var result = newsApi.getNews("in", "technology", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+            var result = newsApi.getNews("in", "technology", 30, "your_api_key")
             if (category.equals("sports"))
-                result = newsApi.getNews("in", "sports", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "sports", 30, "your_api_key")
             if (category.equals("business"))
-                result = newsApi.getNews("in", "business", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "business", 30, "your_api_key")
             if (category.equals("entertainment"))
                 result =
-                    newsApi.getNews("in", "entertainment", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                    newsApi.getNews("in", "entertainment", 30, "your_api_key")
             if (category.equals("general"))
-                result = newsApi.getNews("in", "general", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "general", 30, "your_api_key")
             if (category.equals("science"))
-                result = newsApi.getNews("in", "science", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "science", 30, "your_api_key")
             if (category.equals("health"))
-                result = newsApi.getNews("in", "health", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "health", 30, "your_api_key")
             if (category.equals("technology"))
-                result = newsApi.getNews("in", "technology", 30, "928e56eadacd4c1ba2a7c5cf354bc1c1")
+                result = newsApi.getNews("in", "technology", 30, "your_api_key")
 
 
 
