@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_bar_backround"
+        tools:context=".MainActivity">
+
+
+        <HorizontalScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/top_bar_backround"
+            android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/txt_topHeadLines"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Headlines"
+                    android:textSize="13sp"
+                    android:textColor="@color/category_text_color"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/category_bar_border_color" />
+                <TextView
+                    android:id="@+id/txt_technology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="technology"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/category_bar_border_color" />
+
+                <TextView
+                    android:id="@+id/txt_Business"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="business"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/category_bar_border_color" />
+
+                <TextView
+                    android:id="@+id/txt_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="entertainment"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:textColor="@color/black"
+
+                    android:background="@drawable/category_bar_border_color" />
+
+                <TextView
+                    android:id="@+id/txt_general"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="general"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:textColor="@color/black"
+
+                    android:background="@drawable/category_bar_border_color" />
+
+                <TextView
+                    android:id="@+id/txt_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="health"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+
+                    android:elevation="5dp"
+                    android:background="@drawable/category_bar_border_color" />
+                <TextView
+                    android:id="@+id/txt_science"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="science"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:textColor="@color/black"
+
+                    android:background="@drawable/category_bar_border_color" />
+                <TextView
+                    android:id="@+id/txt_sports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sports"
+                    android:textSize="13sp"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+
+                    android:layout_margin="5dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/category_bar_border_color" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <!--
+<LinearLayout
+    android:id="@+id/ll2"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_below="@id/scrollview"
+    android:orientation="horizontal"
+    android:background="#A9A9A9"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    />
+    -->
+<!--
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recView"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_below="@id/scrollview"
+    android:layout_marginTop="20dp"
+    android:padding="2dp"
+    />
+    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/scrollview"
+            android:background="@color/main_background"
+            >
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="2dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

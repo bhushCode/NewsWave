@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="category_text_button_click_color">#ADD8E6</color>
+    <color name="main_background">#171717</color>
+    <color name="main_background2">#0a0b29</color>
+    <color name="news_background">#1c1c3e</color>
+    <color name="category_text_color">#1ac1e2</color>
+
+    <color name="shimmer_color">#BFBDBD</color>
+</resources>
